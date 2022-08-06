@@ -4,7 +4,7 @@
 In this project we build a complete CI/CD and deploy a Machine Learning.
 
 - First go to Azure and open Azure Cloud Shell.
-- You need to create a Resource Group or use existent, create a Azure Storage and a Fileshare
+- You need to create a Resource Group or use existing, create a Azure Storage and a Fileshare
 - Create a Python Environment: python -m venv ~/.myenv then activate the environemt:
   source ~/.myenv/bin/activate
 - Create and ssh keys with: ssh-keygen -t rsa, youll be asked to select the path where it will be created.
@@ -15,6 +15,8 @@ In this project we build a complete CI/CD and deploy a Machine Learning.
 - You can run python app.py to test it in the cloudshell
 - Then deploy your Azure web service with az webap up --<name>
 - Go to the link of your app: https://<name>.scm.azurewebsites.net/ where name is the name of your web service
+- you can run make_predict_azure_app.sh to see its predictions but firts you have to modify the file and change
+  the following lines:
 - Once your application is deployed we can go to Azure DevOps and create your organization
 - Then create an new project
 - Enter your project name and description, and you can make it public or private
