@@ -1,7 +1,17 @@
 # Overview
 
 <TODO: complete this with an overview of your project>
-In this project we build a complete CI/CD and deploy a Machine Learning
+In this project we build a complete CI/CD and deploy a Machine Learning.
+
+- First go to Azure and open Azure Cloud Shell.
+- You need to create a Resource Group or use existent, create a Azure Storage and a Fileshare
+- Create a Python Environment: python -m venv ~/.myenv then activate the environemt:
+  source ~/.myenv/bin/activate
+- Create and ssh keys with: ssh-keygen -t rsa, youll be asked to select the path where it will be created.
+  Then you can copy the key eg: cat path/id_rsa.pub and copy the content
+- Go to github project https://github.com/cyborg001/flask_udacity_final_project and clone it:
+git clone 
+
 
 ## Project Plan
 <TODO: Project Plan
