@@ -10,7 +10,19 @@ In this project we build a complete CI/CD and deploy a Machine Learning.
 - Create and ssh keys with: ssh-keygen -t rsa, youll be asked to select the path where it will be created.
   Then you can copy the key eg: cat path/id_rsa.pub and copy the content
 - Go to github project https://github.com/cyborg001/flask_udacity_final_project and clone it:
-git clone 
+  git clone git@github.com:cyborg001/flask_udacity_final_project.git
+- Run make install to install the packages needed to run your app
+- You can run python app.py to test it in the cloudshell
+- Then deploy your Azure web service with az webap up --<name>
+- Go to the link of your app: https://<name>.scm.azurewebsites.net/ where name is the name of your web service
+- Once your application is deployed we can go to Azure DevOps and create your organization
+- Then create an new project
+- Enter your project name and description, and you can make it public or private
+- Create a new Pipeline and selet the github repository
+- You'll be asked by azure to use the github repositories youll be asked by azure for permision
+- Next configure your Pipeline as Python to Linux Web App on Azure, select suscription and web app.
+- Validate and configure the web application
+- 
 
 
 ## Project Plan
