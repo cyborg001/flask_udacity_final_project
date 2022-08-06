@@ -6,7 +6,10 @@
 <TODO: Project Plan
 
 * A link to a Trello board for the project
+https://trello.com/b/sffFVaBO/udacity-devops-final-project
+
 * A link to a spreadsheet that includes the original and final project plan>
+https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQpPpA/edit#gid=1348135932
 
 ## Instructions
 
