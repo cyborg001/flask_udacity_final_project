@@ -39,8 +39,8 @@ In this project we build a complete CI/CD and deploy a Machine Learning.
   ![app_running_in_azurecloud](https://user-images.githubusercontent.com/27867802/183238965-58d9bc7e-3149-4332-8ee4-c7c424fadc37.png)
 - Then deploy your Azure web service with az webap up --<name>
 - Go to the link of your app: https://<name>.scm.azurewebsites.net/ where name is the name of your web service
-  ![deployed_flask_ml_app](https://user-images.githubusercontent.com/27867802/183237710-a09f1914-05fb-4573-b6e7-451ad0749f69.png)
   https://calm-forest-cdeb821ed6704dc19dd91c6e1388512b.scm.azurewebsites.net/
+  ![cloudshell project screenshot](https://user-images.githubusercontent.com/27867802/183265957-8835548a-d9f5-4a93-a7d2-36e9204b9cd0.png)
 
 - Once your application is deployed we can go to Azure DevOps and create your organization
 - Then create an new project
