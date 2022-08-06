@@ -16,15 +16,16 @@ In this project we build a complete CI/CD and deploy a Machine Learning.
 - Then deploy your Azure web service with az webap up --<name>
 - Go to the link of your app: https://<name>.scm.azurewebsites.net/ where name is the name of your web service
 - you can run make_predict_azure_app.sh to see its predictions but firts you have to modify the file and change
-  the following lines:
+  the following lines: -X POST https://<appname>.azurewebsites.net:$PORT/predict change <appname> 
+  by the web application name
 - Once your application is deployed we can go to Azure DevOps and create your organization
 - Then create an new project
 - Enter your project name and description, and you can make it public or private
 - Create a new Pipeline and selet the github repository
 - You'll be asked by azure to use the github repositories youll be asked by azure for permision
 - Next configure your Pipeline as Python to Linux Web App on Azure, select suscription and web app.
-- Validate and configure the web application
-- 
+- Validate and configure the web application 
+- save and run Pipeline
 
 
 ## Project Plan
