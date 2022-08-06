@@ -36,11 +36,12 @@ In this project we build a complete CI/CD and deploy a Machine Learning.
   ![test_after_make_all](https://user-images.githubusercontent.com/27867802/183237635-a26453df-0832-44a7-abcc-f8fe185ae181.png)
   ![output_test](https://user-images.githubusercontent.com/27867802/183237593-126715a1-1e27-4ce7-88bb-39aa39aaded5.png)
 - You can run python app.py to test it in the cloudshell
-  ![app_running_in_azurecloud](https://user-images.githubusercontent.com/27867802/183238965-58d9bc7e-3149-4332-8ee4-c7c424fadc37.png)
+  ![cloudshell project screenshot](https://user-images.githubusercontent.com/27867802/183265957-8835548a-d9f5-4a93-a7d2-36e9204b9cd0.png)
+  
 - Then deploy your Azure web service with az webap up --<name>
 - Go to the link of your app: https://<name>.scm.azurewebsites.net/ where name is the name of your web service
   https://calm-forest-cdeb821ed6704dc19dd91c6e1388512b.scm.azurewebsites.net/
-  ![cloudshell project screenshot](https://user-images.githubusercontent.com/27867802/183265957-8835548a-d9f5-4a93-a7d2-36e9204b9cd0.png)
+  ![app_running_in_azurecloud](https://user-images.githubusercontent.com/27867802/183238965-58d9bc7e-3149-4332-8ee4-c7c424fadc37.png)
 
 - Once your application is deployed we can go to Azure DevOps and create your organization
 - Then create an new project
