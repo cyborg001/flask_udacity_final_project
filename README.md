@@ -31,7 +31,8 @@ In this project we build a complete CI/CD and deploy a Machine Learning.
   Then you can copy the key eg: cat path/id_rsa.pub and copy the content
 - Go to github project https://github.com/cyborg001/flask_udacity_final_project and clone it:
   git clone git@github.com:cyborg001/flask_udacity_final_project.git
-  ![cloudshell project screenshot](https://user-images.githubusercontent.com/27867802/183228949-667930e4-5bfa-42f3-ad77-b8b7c164338f.png)
+  ![git_clone image](https://user-images.githubusercontent.com/27867802/183266159-6ef897e4-2c73-4287-8efd-6914a2a9bdfa.png)
+
 - Run make install to install the packages needed to run your app
   ![test_after_make_all](https://user-images.githubusercontent.com/27867802/183237635-a26453df-0832-44a7-abcc-f8fe185ae181.png)
   ![output_test](https://user-images.githubusercontent.com/27867802/183237593-126715a1-1e27-4ce7-88bb-39aa39aaded5.png)
