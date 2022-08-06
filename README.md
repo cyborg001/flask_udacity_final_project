@@ -1,7 +1,7 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
 In this project we build a complete CI/CD and deploy a Machine Learning.
+You will be able to make predictions on house sales1.
 
 - First go to Azure and open Azure Cloud Shell.
 - You need to create a Resource Group or use existing, create a Azure Storage and a Fileshare
