@@ -7,7 +7,7 @@ install:
 
 test:
 	python -m pytest -vv --cov=flask_udacity_final_project tests/test_predictions.py
-	# python -m pytest --nbval notebook.ipynb
+	python -m pytest --nbval notebook.ipynb
 
 
 lint:
