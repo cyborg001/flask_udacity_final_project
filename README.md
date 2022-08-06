@@ -18,8 +18,7 @@
 * Project running on Azure App Service
 
 * Project cloned into Azure Cloud Shell
-![image](https://user-images.githubusercontent.com/27867802/183225859-345a0bc3-56db-4e2c-94ff-a08766be7439.png)
-
+![cloudshell project screenshot](https://user-images.githubusercontent.com/27867802/183228949-667930e4-5bfa-42f3-ad77-b8b7c164338f.png)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
