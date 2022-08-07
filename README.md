@@ -57,7 +57,7 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
   ![deployerd_CD](https://user-images.githubusercontent.com/27867802/183272090-51046418-8820-4e95-a841-971621452f58.png)
 
 - you can run make_predict_azure_app.sh to see its predictions but firts you have to modify the file and change
-  the following line:  -X POST https://<appname>.azurewebsites.net:$PORT/predict youll change <appname> for the name
+  the following line:  -X POST https://(appname).azurewebsites.net:$PORT/predict youll change (appname) for the name
   of the web application.
 - next run the command:
   ./make_predict_azure_app.sh
