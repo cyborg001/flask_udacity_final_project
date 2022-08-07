@@ -26,13 +26,16 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
   Then you can copy the key eg: cat path/id_rsa.pub and copy the content
 - Go to github project https://github.com/cyborg001/flask_udacity_final_project and clone it:
   git clone git@github.com:cyborg001/flask_udacity_final_project.git
+
   ![git_clone image](https://user-images.githubusercontent.com/27867802/183272002-0c302038-edba-4655-9fc8-1eaf71e7951e.png)
 
 - Run make install to install the packages needed to run your app
+
  ![passing all tests](https://user-images.githubusercontent.com/27867802/183272027-ef006992-9750-439a-a989-2696a4b946aa.png)
   ![test_after_make_all](https://user-images.githubusercontent.com/27867802/183272036-b8483f4e-7d59-4fe8-a8b3-0e7d61e01507.png)
 
 - You can run python app.py to test it in the cloudshell
+
   ![cloudshell project screenshot](https://user-images.githubusercontent.com/27867802/183272044-7c055d0e-1412-4a99-8ddb-bf1916fcc220.png)
 
 - Then deploy your Azure web service with az webap up --<name>
@@ -45,10 +48,12 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
 - Create a new Pipeline and selet the github repository
 - You'll be asked by azure to use the github repositories youll be asked by azure for permision
 - Next configure your Pipeline as Python to Linux Web App on Azure, select suscription and web app.
+
   ![deployed_pipeline](https://user-images.githubusercontent.com/27867802/183272082-e8c9aa64-602d-408b-a4d4-a65cf7665d8c.png)
 
 - Validate and configure the web application
 - Save and run your pipeline.
+
   ![deployerd_CD](https://user-images.githubusercontent.com/27867802/183272090-51046418-8820-4e95-a841-971621452f58.png)
 
 - you can run make_predict_azure_app.sh to see its predictions but firts you have to modify the file and change
@@ -59,10 +64,12 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
   and you will see the in the output the predicton:
         Port: 443
         {"prediction":[20.35373177134412]}
+
   ![make_predict](https://user-images.githubusercontent.com/27867802/183272094-e7509a84-8f3f-44cf-ad15-259f3cc93d2e.png)
 
 - You can run the logs with
   az webapp log tail
+
   ![log_printscreen](https://user-images.githubusercontent.com/27867802/183272098-f79f33df-5c51-4e7b-b35e-368c5e39f940.png)
 
 
