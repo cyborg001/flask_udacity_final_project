@@ -1,4 +1,4 @@
-from tests import predictions
+from . import predictions
 
 def test_predictions():
     result = predictions.predictions()
