@@ -28,6 +28,6 @@ def predictions():
     cabeceras = {'Content-Type': 'application/json'} 
     # r = requests.post(f'https://calm-forest-cdeb821ed6704dc19dd91c6e1388512b.azurewebsites.net:{PORT}/predict', headers=cabeceras, 
     #             json=data)
-    r = requests.post(f'app:{PORT}/predict', headers=cabeceras, 
+    r = requests.post(f'http://app:{PORT}/predict', headers=cabeceras, 
                 json=data)
     return r.json()
