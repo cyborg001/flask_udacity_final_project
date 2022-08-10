@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-PORT=443
+# PORT=443
+PORT=5000
 echo "Port: $PORT"
 
 # POST method predict
@@ -25,5 +26,5 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://calm-forest-cdeb821ed6704dc19dd91c6e1388512b.azurewebsites.net:$PORT/predict 
+     -X POST http://10.244.151.245:$PORT/predict 
      #your application name <yourappname>goes here
