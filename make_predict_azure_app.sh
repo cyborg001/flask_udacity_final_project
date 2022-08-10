@@ -26,5 +26,5 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST http://10.244.151.245:$PORT/predict 
+     -X POST http://127.0.0.1:$PORT/predict 
      #your application name <yourappname>goes here
