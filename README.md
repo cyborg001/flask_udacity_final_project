@@ -26,8 +26,8 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
   Then you can copy the key eg: cat path/id_rsa.pub and copy the content
 - Go to github project https://github.com/cyborg001/flask_udacity_final_project and clone it:
   git clone git@github.com:cyborg001/flask_udacity_final_project.git
-
-  ![git_clone image](https://user-images.githubusercontent.com/27867802/183272002-0c302038-edba-4655-9fc8-1eaf71e7951e.png)
+  
+  ![image](https://user-images.githubusercontent.com/27867802/184026946-8c5ed012-fc57-47c7-bec4-21707770227e.png)
 
 - Run make install to install the packages needed to run your app
 
