@@ -31,5 +31,3 @@ def predictions():
     r = requests.post(f'http://127.0.0.1:{PORT}/predict', headers=cabeceras, 
                 json=data)
     return r.json()
-if __name__=='__main__':
-    print(predictions())
