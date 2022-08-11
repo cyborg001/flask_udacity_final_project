@@ -40,7 +40,9 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
   After make install in the make all you can see make test also executes and shows the output of a test
   
   ![passing_local_test_predictions](https://user-images.githubusercontent.com/27867802/184061824-86dcb3f8-29e3-4da7-9b1c-bc9b5ba4d886.png)
-
+  
+  - Next go to Actions in your repository to set the file YML:
+  
 
 
 - Then deploy your Azure web service with az webap up --<name>
