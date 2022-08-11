@@ -3,7 +3,7 @@
 In this project we build a complete CI/CD and deploy a Machine Learning.
 You will be able to make predictions on house sales1.
 
-
+[![Python application test with Github Actions](https://github.com/cyborg001/flask_udacity_final_project/actions/workflows/python-app.yml/badge.svg)](https://github.com/cyborg001/flask_udacity_final_project/actions/workflows/python-app.yml)
 
 
 
