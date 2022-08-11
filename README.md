@@ -32,9 +32,12 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
 - Run make install to install the packages needed to run your app
 
   ![make_all](https://user-images.githubusercontent.com/27867802/184061502-332fbaec-aba3-4f84-aaa0-b669d692fe7e.png)
+  
+  After make install in the make all you can see make test also executes
+  
+  ![passing_local_test_predictions](https://user-images.githubusercontent.com/27867802/184061824-86dcb3f8-29e3-4da7-9b1c-bc9b5ba4d886.png)
 
-
- ![passing all tests](https://user-images.githubusercontent.com/27867802/183272027-ef006992-9750-439a-a989-2696a4b946aa.png)
+ 
   ![test_after_make_all](https://user-images.githubusercontent.com/27867802/183272036-b8483f4e-7d59-4fe8-a8b3-0e7d61e01507.png)
 
 - You can run python app.py to test it in the cloudshell
