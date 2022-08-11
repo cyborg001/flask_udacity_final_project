@@ -48,6 +48,9 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
     and change the code for the scaffolder in starter_files:
     
     ![change_yaml](https://user-images.githubusercontent.com/27867802/184064912-84c9d14a-2836-486e-95f7-63570a6bf7f7.png)
+    
+   - Commit the workflow:
+    
 
 
 
