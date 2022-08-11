@@ -54,8 +54,13 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
     ![build_ci_job](https://user-images.githubusercontent.com/27867802/184066093-581439b4-4921-4d1c-8284-7a9675b20dad.png)
     
   - Last step for the Continues Integration is to create a badge:
-
     
+    ![creating_status_badge](https://user-images.githubusercontent.com/27867802/184066412-4becf439-05df-4c5c-b265-c44088ffaa59.png)
+    
+  - The status badge:
+  
+    ![status_badge](https://user-images.githubusercontent.com/27867802/184066471-e126348e-559c-4558-a792-89e2cb655654.png)
+
 
 
 
