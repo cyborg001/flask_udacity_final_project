@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-# PORT=443
-PORT=5000
+PORT=443
 echo "Port: $PORT"
 
 # POST method predict
@@ -26,5 +25,5 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST http://127.0.0.1:$PORT/predict 
+     -X POST http://carlos-ml-service.azurewebsites.net:$PORT/predict 
      #your application name <yourappname>goes here
