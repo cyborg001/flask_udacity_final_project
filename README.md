@@ -31,6 +31,9 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
 
 - Run make install to install the packages needed to run your app
 
+  ![make_all](https://user-images.githubusercontent.com/27867802/184061502-332fbaec-aba3-4f84-aaa0-b669d692fe7e.png)
+
+
  ![passing all tests](https://user-images.githubusercontent.com/27867802/183272027-ef006992-9750-439a-a989-2696a4b946aa.png)
   ![test_after_make_all](https://user-images.githubusercontent.com/27867802/183272036-b8483f4e-7d59-4fe8-a8b3-0e7d61e01507.png)
 
