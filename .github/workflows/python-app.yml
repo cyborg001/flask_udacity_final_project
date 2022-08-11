@@ -16,6 +16,9 @@ jobs:
     - name: Install dependencies
       run: |
         make install
+    - name: Run docker
+      run: |
+        make docker
     - name: Lint with pylint
       run: |
         make lint
