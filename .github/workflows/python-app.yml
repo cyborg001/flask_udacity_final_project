@@ -18,7 +18,7 @@ jobs:
         make install
     - name: Run docker
       run: |
-        make docker
+        make server
     - name: Lint with pylint
       run: |
         make lint
