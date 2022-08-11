@@ -37,9 +37,6 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
   
   ![passing_local_test_predictions](https://user-images.githubusercontent.com/27867802/184061824-86dcb3f8-29e3-4da7-9b1c-bc9b5ba4d886.png)
 
- 
-  ![test_after_make_all](https://user-images.githubusercontent.com/27867802/183272036-b8483f4e-7d59-4fe8-a8b3-0e7d61e01507.png)
-
 - You can run python app.py to test it in the cloudshell
 
   ![cloudshell project screenshot](https://user-images.githubusercontent.com/27867802/183272044-7c055d0e-1412-4a99-8ddb-bf1916fcc220.png)
