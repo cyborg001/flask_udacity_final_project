@@ -5,7 +5,7 @@ install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 server:
-	python app.py
+	./run_docker.sh
 test:
 	python -m pytest -vv --cov=flask_udacity_final_project tests/test_predictions.py
 	python -m pytest --nbval notebook.ipynb
