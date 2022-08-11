@@ -43,6 +43,12 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
   
   - Next go to Actions in your repository to set the file YML:
   
+    ![yaml](https://user-images.githubusercontent.com/27867802/184064825-ff85c2ef-df12-4725-aae2-b21e9b6c366b.png)
+    
+    and change the code for the scaffolder in starter_files:
+    
+    ![change_yaml](https://user-images.githubusercontent.com/27867802/184064912-84c9d14a-2836-486e-95f7-63570a6bf7f7.png)
+
 
 
 - Then deploy your Azure web service with az webap up --<name>
