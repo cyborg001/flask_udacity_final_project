@@ -49,7 +49,12 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
     
     ![change_yaml](https://user-images.githubusercontent.com/27867802/184064912-84c9d14a-2836-486e-95f7-63570a6bf7f7.png)
     
-   - Commit the workflow:
+  - Commit the workflow and run 
+    
+    ![build_ci_job](https://user-images.githubusercontent.com/27867802/184066093-581439b4-4921-4d1c-8284-7a9675b20dad.png)
+    
+  - Last step for the Continues Integration is to create a badge:
+
     
 
 
