@@ -1,33 +1,11 @@
-import requests
+import subprocess
 
-def predictions():
-    data = {
-    "CHAS":{
-        "0":0
-    },
-    "RM":{
-        "0":6.575
-    },
-    "TAX":{
-        "0":296.0
-    },
-    "PTRATIO":{
-        "0":15.3
-    },
-    "B":{
-        "0":396.9
-    },
-    "LSTAT":{
-        "0":4.98
-    }
-    }
+def my_prediction():
+    PIPE=subprocess.PIPE
+    prediction = subprocess.run("./make_prediction.sh",stdout=PIPE, stderr=PIPE)
+    return str(prediction.stdout)
 
-    PORT=443
-    PORT=5000
 
-    cabeceras = {'Content-Type': 'application/json'} 
-    # r = requests.post(f'https://calm-forest-cdeb821ed6704dc19dd91c6e1388512b.azurewebsites.net:{PORT}/predict', headers=cabeceras, 
-    #             json=data)
-    r = requests.post(f'http://app:{PORT}/predict', headers=cabeceras, 
-                json=data)
-    return r.json()
+if __name__ == '__main__':
+    my_prediction()
+# print(my_prediction())

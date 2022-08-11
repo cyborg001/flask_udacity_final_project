@@ -1,5 +1,6 @@
 from . import predictions
 
 def test_predictions():
-    result = predictions.predictions()
-    assert type(result) == type(dict())
+    result = predictions.my_prediction()
+    print(result)
+    assert 'prediction' in result
