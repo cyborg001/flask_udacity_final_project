@@ -27,7 +27,7 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
 - Go to github project https://github.com/cyborg001/flask_udacity_final_project and clone it:
   git clone git@github.com:cyborg001/flask_udacity_final_project.git
   
-  ![cloud_shell_clone_project](https://user-images.githubusercontent.com/27867802/184027372-63bad68d-7aae-40f1-8824-70d770903540.png)
+  ![cloud_shell_clone_project](https://user-images.githubusercontent.com/27867802/184059501-2e9ca30c-01c3-49a7-8a0c-ddad0896b8ea.png)
 
 - Run make install to install the packages needed to run your app
 
