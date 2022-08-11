@@ -33,13 +33,15 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
 
   ![make_all](https://user-images.githubusercontent.com/27867802/184061502-332fbaec-aba3-4f84-aaa0-b669d692fe7e.png)
   
+  - You can run python app.py to test it in the cloudshell
+
+  ![cloudshell project screenshot](https://user-images.githubusercontent.com/27867802/183272044-7c055d0e-1412-4a99-8ddb-bf1916fcc220.png)
+  
   After make install in the make all you can see make test also executes
   
   ![passing_local_test_predictions](https://user-images.githubusercontent.com/27867802/184061824-86dcb3f8-29e3-4da7-9b1c-bc9b5ba4d886.png)
 
-- You can run python app.py to test it in the cloudshell
 
-  ![cloudshell project screenshot](https://user-images.githubusercontent.com/27867802/183272044-7c055d0e-1412-4a99-8ddb-bf1916fcc220.png)
 
 - Then deploy your Azure web service with az webap up --<name>
 - Go to the link of your app: https://<name>.scm.azurewebsites.net/ where name is the name of your web service
