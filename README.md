@@ -107,8 +107,7 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
 - You can run the logs with
   az webapp log tail
 
-  ![log_printscreen](https://user-images.githubusercontent.com/27867802/183272098-f79f33df-5c51-4e7b-b35e-368c5e39f940.png)
-
+  ![log_image](https://user-images.githubusercontent.com/27867802/184295115-9ece1bd6-d4cd-4a71-9e46-d312acd58949.png)
 
 
 ## Enhancements
