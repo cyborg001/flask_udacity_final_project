@@ -69,7 +69,7 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
   ![service_plan_in_azure](https://user-images.githubusercontent.com/27867802/184275942-90bf4fb6-fea1-4d26-bacb-58451da334d5.png)
 
 
-- Go to the link of your app: https://(name).scm.azurewebsites.net/ where name is the name of your web service
+- Go to the link of your app: https://(name).scm.azurewebsites.net/ where (name) is the name of your web service
 
   ![image](https://user-images.githubusercontent.com/27867802/184286431-13478e54-83c3-4423-a41a-5d89a59a3114.png)
 
@@ -81,13 +81,31 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
    ![test_predict](https://user-images.githubusercontent.com/27867802/184287955-89aa89fb-41db-4eaa-b050-062ac0bfbe8b.png)
 
 
-- Once your application is deployed we can go to Azure DevOps and create your organization
+- Once your application is deployed we can go to Azure DevOps and create your organization or use existing
 - Then create an new project
+
+  ![create_A_devops_organization](https://user-images.githubusercontent.com/27867802/184447617-dd4363ff-4c9a-4bb1-9dfc-a82fde1b4c5c.png)
+
+  
 - Enter your project name and description, and you can make it public or private
-- Create a new Pipeline and selet the github repository
+- Go to Pipelines
+- Create a new Pipeline 
+  
+  ![create_AD_Pipelines](https://user-images.githubusercontent.com/27867802/184448037-d54e489c-ac59-4d38-a368-9ffa40edddd1.png)
+
+- In 'where is your code' select Github
+
+  ![select_github(yml)](https://user-images.githubusercontent.com/27867802/184448250-bc262822-d3ed-4679-a8a4-b94003e8addd.png)
+  
+- Select your Github repository
+
+  ![select_your_github_repository](https://user-images.githubusercontent.com/27867802/184448487-eb0eaabd-b119-451b-8be9-f713bca6c8c7.png)
+
 - You'll be asked by azure to use the github repositories youll be asked by azure for permision
 - Next configure your Pipeline as Python to Linux Web App on Azure, select suscription and web app.
-
+  
+  ![configure_pipeline](https://user-images.githubusercontent.com/27867802/184448653-47a51cf0-f1c3-4644-a9e6-339e3e8a2771.png)
+    
 - Validate and configure the web application
 - Save and run your pipeline.
   
