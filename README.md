@@ -33,7 +33,7 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
 
   ![make_all](https://user-images.githubusercontent.com/27867802/184061502-332fbaec-aba3-4f84-aaa0-b669d692fe7e.png)
   
-  - You can run python app.py to test it in the cloudshell
+- You can run python app.py to test it in the cloudshell
 
   ![cloudshell project screenshot](https://user-images.githubusercontent.com/27867802/183272044-7c055d0e-1412-4a99-8ddb-bf1916fcc220.png)
   
@@ -41,7 +41,7 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
   
   ![passing_local_test_predictions](https://user-images.githubusercontent.com/27867802/184061824-86dcb3f8-29e3-4da7-9b1c-bc9b5ba4d886.png)
   
-  - Next go to Actions in your repository to set the file YML:
+- Next go to Actions in your repository to set the file YML:
   
     ![yaml](https://user-images.githubusercontent.com/27867802/184064825-ff85c2ef-df12-4725-aae2-b21e9b6c366b.png)
     
@@ -49,22 +49,22 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
     
     ![change_yaml](https://user-images.githubusercontent.com/27867802/184064912-84c9d14a-2836-486e-95f7-63570a6bf7f7.png)
     
-  - Commit the workflow and wait for it to run automatically.
+- Commit the workflow and wait for it to run automatically.
     
     ![build_ci_job](https://user-images.githubusercontent.com/27867802/184066093-581439b4-4921-4d1c-8284-7a9675b20dad.png)
     
-  - Last step for the Continues Integration is to create a badge:
+- Last step for the Continues Integration is to create a badge:
     
     ![creating_status_badge](https://user-images.githubusercontent.com/27867802/184066412-4becf439-05df-4c5c-b265-c44088ffaa59.png)
     
-  - The status badge:
+- The status badge:
   
     ![status_badge](https://user-images.githubusercontent.com/27867802/184066471-e126348e-559c-4558-a792-89e2cb655654.png)
 
 
-
-
 - Then deploy your Azure web service with az webap up --<name>
+  ![create_service](https://user-images.githubusercontent.com/27867802/184275247-a87736da-6e0b-4048-b558-7adb4b8455c9.png)
+
 - Go to the link of your app: https://<name>.scm.azurewebsites.net/ where name is the name of your web service
   ![app_running_in_azurecloud](https://user-images.githubusercontent.com/27867802/183272062-a1d3b9c4-1345-4eb8-9779-17c28ef34965.png)
 
