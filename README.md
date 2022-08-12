@@ -74,9 +74,9 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
   ![image](https://user-images.githubusercontent.com/27867802/184286431-13478e54-83c3-4423-a41a-5d89a59a3114.png)
 
 - Lets make the load test and predict test.
- - First the load test:
-  ![load_test](https://user-images.githubusercontent.com/27867802/184286552-3879792f-dc14-44b0-aa7b-06708e25bc44.png)
- - Second the predict test:
+  - First the load test:
+    ![load_test](https://user-images.githubusercontent.com/27867802/184286552-3879792f-dc14-44b0-aa7b-06708e25bc44.png)
+  - Second the predict test:
   
    ![test_predict](https://user-images.githubusercontent.com/27867802/184287955-89aa89fb-41db-4eaa-b050-062ac0bfbe8b.png)
 
