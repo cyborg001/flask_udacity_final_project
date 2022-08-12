@@ -88,12 +88,10 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
 - You'll be asked by azure to use the github repositories youll be asked by azure for permision
 - Next configure your Pipeline as Python to Linux Web App on Azure, select suscription and web app.
 
-  ![deployed_pipeline](https://user-images.githubusercontent.com/27867802/183272082-e8c9aa64-602d-408b-a4d4-a65cf7665d8c.png)
-
 - Validate and configure the web application
 - Save and run your pipeline.
-
-  ![deployerd_CD](https://user-images.githubusercontent.com/27867802/183272090-51046418-8820-4e95-a841-971621452f58.png)
+  
+  ![CD_deployed](https://user-images.githubusercontent.com/27867802/184294437-cc86c723-cdec-461b-8b6a-d9d3e229bcc0.png)
 
 - you can run make_predict_azure_app.sh to see its predictions but firts you have to modify the file and change
   the following line:  -X POST https://(appname).azurewebsites.net:$PORT/predict youll change (appname) for the name
@@ -109,8 +107,7 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
 - You can run the logs with
   az webapp log tail
 
-  ![log_printscreen](https://user-images.githubusercontent.com/27867802/183272098-f79f33df-5c51-4e7b-b35e-368c5e39f940.png)
-
+  ![log_image](https://user-images.githubusercontent.com/27867802/184295115-9ece1bd6-d4cd-4a71-9e46-d312acd58949.png)
 
 
 ## Enhancements
