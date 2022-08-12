@@ -92,6 +92,8 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
 
 - Validate and configure the web application
 - Save and run your pipeline.
+  
+  ![CD_deployed](https://user-images.githubusercontent.com/27867802/184294437-cc86c723-cdec-461b-8b6a-d9d3e229bcc0.png)
 
   ![deployerd_CD](https://user-images.githubusercontent.com/27867802/183272090-51046418-8820-4e95-a841-971621452f58.png)
 
