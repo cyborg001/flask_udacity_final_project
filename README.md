@@ -78,6 +78,7 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
   ![load_test](https://user-images.githubusercontent.com/27867802/184286552-3879792f-dc14-44b0-aa7b-06708e25bc44.png)
  - Second the predict test:
   
+    ![make_predict](https://user-images.githubusercontent.com/27867802/184287747-dd8fc1e3-2cd6-462e-9819-f3cf4c9920d6.png)
 
 
 - Once your application is deployed we can go to Azure DevOps and create your organization
