@@ -130,14 +130,14 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
 
 ## Enhancements
 
-A short description of how to improve the project in the future.
+## A short description of how to improve the project in the future.
 
 - You can use the Click tool to replace the script make_predict_azure_app.sh for a parametrized python code
   which accepts a dict as parameter.
 
 ## Demo 
 
-Add link Screencast on YouTube:
-https://youtu.be/sExdSs9Y4ZM
+## Add link Screencast on YouTube:
+https://youtu.be/hhHbObN8xMg
 
 
