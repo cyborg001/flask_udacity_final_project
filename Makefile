@@ -11,6 +11,8 @@ test:
 	python -m pytest -vv --cov=flask_udacity_final_project tests/test_predictions.py
 	python -m pytest --nbval notebook.ipynb
 
+commands:
+	bash ./commands.sh
 
 lint:
 	#hadolint Dockerfile #uncomment to explore linting Dockerfiles
