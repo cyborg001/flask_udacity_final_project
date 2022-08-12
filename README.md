@@ -88,8 +88,6 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
 - You'll be asked by azure to use the github repositories youll be asked by azure for permision
 - Next configure your Pipeline as Python to Linux Web App on Azure, select suscription and web app.
 
-  ![deployed_pipeline](https://user-images.githubusercontent.com/27867802/183272082-e8c9aa64-602d-408b-a4d4-a65cf7665d8c.png)
-
 - Validate and configure the web application
 - Save and run your pipeline.
   
