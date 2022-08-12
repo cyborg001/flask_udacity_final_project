@@ -128,7 +128,6 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
   ![log_image](https://user-images.githubusercontent.com/27867802/184295115-9ece1bd6-d4cd-4a71-9e46-d312acd58949.png)
 
 
-## Enhancements
 
 ## A short description of how to improve the project in the future.
 
