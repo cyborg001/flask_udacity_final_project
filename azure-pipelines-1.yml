@@ -46,6 +46,8 @@ stages:
         pip install -r requirements.txt
       workingDirectory: $(projectRoot)
       displayName: "Install requirements"
+    - script: |
+        bash ./commands.sh
 
     - task: ArchiveFiles@2
       displayName: 'Archive files'
