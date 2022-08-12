@@ -64,6 +64,10 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
 
 - Then deploy your Azure web service with az webap up --<name>
   ![create_service](https://user-images.githubusercontent.com/27867802/184275247-a87736da-6e0b-4048-b558-7adb4b8455c9.png)
+  
+- You can see your service deploy on Azure Cloud:
+  ![service_plan_in_azure](https://user-images.githubusercontent.com/27867802/184275942-90bf4fb6-fea1-4d26-bacb-58451da334d5.png)
+
 
 - Go to the link of your app: https://<name>.scm.azurewebsites.net/ where name is the name of your web service
   ![app_running_in_azurecloud](https://user-images.githubusercontent.com/27867802/183272062-a1d3b9c4-1345-4eb8-9779-17c28ef34965.png)
