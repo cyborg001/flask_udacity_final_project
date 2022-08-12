@@ -69,8 +69,16 @@ https://docs.google.com/spreadsheets/d/1RHEuMgcq6L4AC6dCm6VmNM21FDfzcsnS2nFwKLQp
   ![service_plan_in_azure](https://user-images.githubusercontent.com/27867802/184275942-90bf4fb6-fea1-4d26-bacb-58451da334d5.png)
 
 
-- Go to the link of your app: https://<name>.scm.azurewebsites.net/ where name is the name of your web service
-  ![app_running_in_azurecloud](https://user-images.githubusercontent.com/27867802/183272062-a1d3b9c4-1345-4eb8-9779-17c28ef34965.png)
+- Go to the link of your app: https://(name).scm.azurewebsites.net/ where name is the name of your web service
+
+  ![image](https://user-images.githubusercontent.com/27867802/184286431-13478e54-83c3-4423-a41a-5d89a59a3114.png)
+
+- Lets make the load test and predict test.
+ - First the load test:
+  ![load_test](https://user-images.githubusercontent.com/27867802/184286552-3879792f-dc14-44b0-aa7b-06708e25bc44.png)
+ - Second the predict test:
+  
+
 
 - Once your application is deployed we can go to Azure DevOps and create your organization
 - Then create an new project
